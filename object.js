@@ -95,7 +95,7 @@ var videosBySamePoster = [
 ];
 
 var commentHTMl = "";
-
+var videohtml = "";
 $(document).ready(function(){
 
 	$('#form-submit').submit(function(){
@@ -109,6 +109,22 @@ $(document).ready(function(){
 		event.preventDefault();
 		$('#myModal').modal('hide');
 	})
+
+
+
+	for(i=0; i<4; i++){
+		var videoTitle = otherVideos[i].vidtitle;
+		if(videoTitle.length > 55){
+			var newTitle = videoTitle.slice(0, 54) + "...";	
+		}else{
+			var newTitle = videoTitle;
+		}
+		videohtml += '<div id="thumbnails"><img src="' + otherVideos[i].thumb + '"></div>';
+		videohtml += '<div id="thumbnails-text"><h5>' + otherVideos[i].vidtitle + '</h5><p>Total Views: ';
+		videohtml += otherVideos[i].totalViews + '</p></div>';
+
+	}
+	$('#dynamic-videos').html(videohtml);
 
 
 

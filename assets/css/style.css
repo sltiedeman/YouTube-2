@@ -140,8 +140,92 @@
   padding-right: 5%;
   margin-bottom: 2%;
 }
-/* line 132, ../compass/sass/style.scss */
-#total-wrapper #body-wrapper #related-video-wrapper {
+/* line 133, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper {
+  width: 28%;
+  float: left;
+  margin-left: 2%;
+}
+/* line 137, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #profile {
+  width: 100%;
+  overflow: hidden;
+  border: 2px solid;
+  padding: 4%;
+}
+/* line 142, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #profile #profile1 {
+  width: 100%;
+}
+/* line 144, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #profile #profile1 #profile-image {
   width: 30%;
   float: left;
+}
+/* line 147, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #profile #profile1 #profile-image img {
+  width: 100%;
+}
+/* line 151, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #profile #profile1 #profile-text {
+  width: 40%;
+  float: left;
+  padding-left: 5%;
+}
+/* line 155, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #profile #profile1 #profile-text h4 {
+  margin-top: 0px;
+  color: #0066ff;
+}
+/* line 159, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #profile #profile1 #profile-text p {
+  font-weight: bold;
+}
+/* line 163, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #profile #profile1 #subscribe-button {
+  width: 30%;
+  float: left;
+  font-weight: bold;
+}
+/* line 171, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #profile #profile2 {
+  clear: both;
+  padding-top: 3%;
+}
+/* line 178, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #related-videos {
+  padding-top: 4%;
+}
+/* line 180, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #related-videos #dynamic-videos {
+  width: 100%;
+}
+/* line 182, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #related-videos #dynamic-videos #thumbnails {
+  width: 30%;
+  clear: both;
+  float: left;
+  margin-bottom: 4%;
+  background-color: black;
+}
+/* line 188, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #related-videos #dynamic-videos #thumbnails img {
+  width: 100%;
+}
+/* line 192, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #related-videos #dynamic-videos #thumbnails-text {
+  width: 70%;
+  float: left;
+  padding-left: 4%;
+}
+/* line 196, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #related-videos #dynamic-videos #thumbnails-text h5 {
+  margin: 0px;
+  padding: 0px;
+  color: #0066ff;
+}
+/* line 201, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #related-videos #dynamic-videos #thumbnails-text p {
+  font-size: 12px;
+  padding-top: 4%;
 }

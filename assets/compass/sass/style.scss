@@ -128,12 +128,84 @@
 			}
 
 		}
+		
+	}
+	#related-video-wrapper {
+		width: 28%;
+		float: left;
+		margin-left: 2%;
+		#profile{
+			width: 100%;
+			overflow: hidden;
+			border: 2px solid;
+			padding: 4%;
+			#profile1{
+				width: 100%;
+				#profile-image{
+					width: 30%;
+					float: left;
+					img{
+						width: 100%;
+					}
+				}
+				#profile-text{
+					width: 40%;
+					float: left;
+					padding-left: 5%;
+					h4{
+						margin-top: 0px;
+						color: #0066ff;
+					}
+					p{
+						font-weight: bold;
+					}
+				}
+				#subscribe-button{
+					width: 30%;
+					float: left;
+					font-weight: bold;
 
-		#related-video-wrapper {
-			width: 30%;
-			float: left;
+				}
+
+			}
+			#profile2{
+				clear: both;
+				padding-top: 3%;
+
+			}
 
 		}
+		#related-videos{
+			padding-top: 4%;
+			#dynamic-videos{
+				width: 100%;
+				#thumbnails{
+					width: 30%;
+					clear: both;
+					float: left;
+					margin-bottom: 4%;
+					background-color: black;
+					img{
+						width: 100%;
+					}
+				}
+				#thumbnails-text{
+					width: 70%;
+					float: left;
+					padding-left: 4%;
+					h5{
+						margin: 0px;
+						padding: 0px;
+						color: #0066ff;
+					}
+					p{
+						font-size: 12px;
+						padding-top: 4%;
+					}
+				}
+			}
+		}
+
 	}
 
 }
