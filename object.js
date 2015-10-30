@@ -119,8 +119,9 @@ $(document).ready(function(){
 		}else{
 			var newTitle = videoTitle;
 		}
-		videohtml += '<div id="thumbnails"><img src="' + otherVideos[i].thumb + '"></div>';
-		videohtml += '<div id="thumbnails-text"><h5>' + otherVideos[i].vidtitle + '</h5><p>Total Views: ';
+		videohtml += '<div id="thumbnails"><a href="' + otherVideos[i].url +'">';
+		videohtml += '<img src="' + otherVideos[i].thumb + '"></div>';
+		videohtml += '<div id="thumbnails-text"><h5>' + otherVideos[i].vidtitle + '</h5></a><p>Total Views: ';
 		videohtml += otherVideos[i].totalViews + '</p></div>';
 
 	}

@@ -224,7 +224,11 @@
   padding: 0px;
   color: #0066ff;
 }
-/* line 201, ../compass/sass/style.scss */
+/* line 200, ../compass/sass/style.scss */
+#total-wrapper #related-video-wrapper #related-videos #dynamic-videos #thumbnails-text h5 a {
+  text-decoration: none;
+}
+/* line 204, ../compass/sass/style.scss */
 #total-wrapper #related-video-wrapper #related-videos #dynamic-videos #thumbnails-text p {
   font-size: 12px;
   padding-top: 4%;
